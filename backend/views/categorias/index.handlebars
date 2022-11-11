@@ -1,0 +1,13 @@
+<h3>Categorias</h3>
+{{#each categorias}}
+<div class = "p-5 mb-4 bg-light rounded-3">
+    <div class ="container-fluid py-5">
+     <a href="/categorias/{{slug}}"><h5>Nome: {{nome}}</h5></a>
+        <hr>
+        <small>Slug: {{slug}}</small>
+        <br>
+        <small>Data de Criação: {{Data}}</small>
+    </div>
+</div>
+{{else}}
+{{/each}}
